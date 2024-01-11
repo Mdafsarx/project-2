@@ -62,7 +62,7 @@ width: 100%;
     /* line-height: 1.5em; */
     
     padding: 85px 130px 100px 100px ;
-    width: 40%;
+    width: 49%;
     
 
 }
@@ -80,7 +80,7 @@ padding: 10px;
 background-color: palevioletred;
 border:none;
 color: whitesmoke;
-border-radius: 10px;
+border-radius: 3px;
 margin: 5px;
 }
 
@@ -125,11 +125,39 @@ background: rgba(71, 125, 17, 0.15);
 }
 
 
+/* <!-- customer service // delivery men  section!--> */
 
+.contract-info{
 
+display: flex;
+max-width: 50%;
+margin: 130px auto;
+justify-content: center;
+border-radius: 15px;
+background: rgba(39, 39, 39, 0.05);
+/* gap: 100px; */
+text-align: center;
+padding: 90px;
 
+}
+.info{
+    margin-right: 42px;
+}
 
+/* section 25% flower */
+.offer-flower{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: aquamarine;
+text-align: center;
+gap: 180px;
 
+}
+
+.offer{
+    width: 35%;
+}
 
 
 
@@ -209,8 +237,29 @@ cursor: pointer;
 
 }
 
+.contract-info {
+    
 
-
-
-
+    gap: 20px;
+     padding: 80px; 
+    flex-direction: column-reverse;
+    /* padding-right: 15px; */
+}
+.offer-flower {
+    flex-direction: row;
+}
+.common-h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.offer-flower{
+    text-align: left;
+}
+.img25 img{
+    width: 70%;
+    height: 70%;
+}
+.offer {
+    width: 100%;
+}
 }
