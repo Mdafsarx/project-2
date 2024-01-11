@@ -1,0 +1,216 @@
+
+*{
+    font-family: 'Lato', sans-serif;
+margin: 0;
+/* padding: 0; */
+}
+/* header gn section */
+.common-h2{
+    font-size: 60px;
+    font-weight: 800;
+
+}
+
+.common-p{
+    font-size: 18px;
+    line-height: 2em;
+    /* width: 65%; */
+}
+
+/* main flower radius section --for genaral */
+
+.midel-title{
+    max-width: 100%;
+    width: 31%;
+    text-align: center;
+    margin: 50px auto;
+    
+}
+
+.common-h3{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* header section */
+.banner-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: rgba(229, 84, 115, 0.10);
+height: 100%;
+width: 100%;
+
+
+
+
+}
+
+
+
+.banner-title{
+    /* font-weight: 800; */
+    /* line-height: 1.5em; */
+    
+    padding: 85px 130px 100px 100px ;
+    width: 40%;
+    
+
+}
+.header-img img{
+width: 100%;
+height: 100%;
+vertical-align: middle;
+/* position: relative; */
+box-sizing: border-box;
+/* margin-top: 25px; */
+
+}
+.common-button{
+padding: 10px;
+background-color: palevioletred;
+border:none;
+color: whitesmoke;
+border-radius: 10px;
+margin: 5px;
+}
+
+
+
+
+/* main section */
+/* flower radius section */
+.img-radius{
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 60%;
+
+    margin: 25px auto;
+    text-align: center;
+    gap: 25px;
+    
+}
+
+
+.img-radius img{
+height: 100%;
+width: 100%;
+
+}
+
+.img1{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+/* padding-top: 30px; */
+
+}
+.img2{
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+
+}
+.img3{
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query  */
+
+/* for mobile */
+
+@media  screen and (max-width:576px) {
+
+    .header-img{
+        display: none;
+    }
+    .common-h2 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .common-p {
+        font-size: 12px;
+        line-height: 1em;
+        width: 100%;
+    }
+    .common-button {
+        padding: 0px;
+}
+.midel-title {
+    
+    width: 50%;
+    
+   
+}
+.img-radius {
+    
+    flex-direction: column;
+}
+
+.common-p:hover{
+
+color: cornflowerblue;
+cursor: pointer;
+
+}
+
+
+
+
+
+}
